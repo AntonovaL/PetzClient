@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Petz</string>
+    <string name="empty">Нет данных</string>
+    <string-array name="typeList">
+        <item>Кот</item>
+        <item>Собака</item>
+        <item>Енот</item>
+        <item>Ёж</item>
+    </string-array>
+    <string-array name="age_numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="age_types">
+        <item>месяц</item>
+        <item>год</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    completions."
+</resources>

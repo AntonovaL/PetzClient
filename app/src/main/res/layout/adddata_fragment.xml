@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/editType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/owner_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Владелец" />
+
+            <RadioButton
+                android:id="@+id/client_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Пользователь" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Name"
+            android:ems="10"
+            android:hint="Имя"
+            android:inputType="textPersonName"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Phone Number"
+            android:ems="10"
+            android:hint="Номер телефона"
+            android:inputType="phone"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="City"
+            android:ems="10"
+            android:hint="Город"
+            android:inputType="textPersonName"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:visibility="visible" />
+        <ProgressBar
+            android:id="@+id/data_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            android:visibility="invisible" />
+    </LinearLayout>
+</FrameLayout>
